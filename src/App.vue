@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    padding: 0px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background-color: #350230;
+    height: 100%;
+    margin: 0;
+    color: #CCC;
+    line-height: 140%;
+    font-size: 0.95em;
+  }
+  #app{
+    width: 100%;
+    background-color: #350230;
+    background-image: url(http://www.sekhem.com.au/templates/sekhem/images/bg.png);
+    background-repeat: repeat-x;
+    height: 100vh;
+    left: 0;
+    margin: auto;
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+    top: 0;
+  }
 </style>

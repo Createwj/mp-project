@@ -1,18 +1,33 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="wrap">
+    <div class="home"></div>
+    <div class="content">
+
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+
   }
 }
 </script>
+<style>
+  .home {
+    margin: 0 auto;
+    background-image: url(http://www.sekhem.com.au/templates/sekhem/images/sunbeam.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+  }
+.tab {
+  background-image: url(  http://www.sekhem.com.au/templates/sekhem/images/main-menu-bar.png);
+  background-repeat: no-repeat;
+}
+</style>
